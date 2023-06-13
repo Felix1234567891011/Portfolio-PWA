@@ -65,6 +65,24 @@ const Experience = () => {
               <h4>Express</h4>
               </div>
             </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+              <h4>Java (Spring)</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+              <h4>SQL/NoSQL</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+              <h4>Linux</h4>
+              </div>
+            </article>
           </div>
         </div>
       </div>
