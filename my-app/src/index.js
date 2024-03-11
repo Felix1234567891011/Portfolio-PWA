@@ -1,4 +1,5 @@
 import React from 'react';
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 import './mystyle.css';
 import App from './App';
@@ -9,3 +10,5 @@ const root = createRoot(container);
 root.render(
   <App />
 )
+
+serviceWorkerRegistration.register();
